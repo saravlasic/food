@@ -6,7 +6,8 @@
       <v-col
         v-for="cocktail in paginatedCocktails"
         :key="cocktail.title"
-        cols="4"
+        cols="12"
+        md="3"
       >
         <v-card height="200">
           <div class="cocktail-image">
